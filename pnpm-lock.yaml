@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       astro:
-        specifier: ^5.13.2
+        specifier: ^5.13.3
         version: 5.13.3(@types/node@24.3.0)(rollup@4.48.0)(typescript@5.9.2)
     devDependencies:
       prettier:
