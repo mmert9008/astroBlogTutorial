@@ -1,5 +1,6 @@
 ---
-import '../styles/global.css';
+import "../styles/myDefault.css";
+import "../styles/global.css";
 
 const { platform, username } = Astro.props;
 
@@ -11,7 +12,13 @@ const { platform, username } = Astro.props;
   a {
     padding: 0.5rem 1rem;
     color: white;
-    background-color: #4c1d95;
-    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    a {
+      border: 1.5px solid white;
+    }
   }
 </style>

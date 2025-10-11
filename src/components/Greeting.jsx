@@ -7,8 +7,25 @@ export default function Greeting({ messages }) {
 
   return (
     <div>
+      <style>
+        {`
+          .greeting-button {
+            padding: 0.5rem 1rem;
+            background-color: steelblue;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+        `}
+      </style>
       <h3>{greeting}! Thank you for visiting!</h3>
-      <button onClick={() => setGreeting(randomMessage())}>New Greeting</button>
+      <button
+        className="greeting-button"
+        onClick={() => setGreeting(randomMessage())}
+      >
+        New Greeting
+      </button>
     </div>
   );
 }

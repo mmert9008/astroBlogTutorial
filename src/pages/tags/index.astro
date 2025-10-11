@@ -1,5 +1,6 @@
 ---
-import '../../styles/global.css';
+import "../../styles/myDefault.css";
+import "../../styles/global.css";
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const allPosts = Object.values(import.meta.glob('../posts/*.md', { eager: true }));
@@ -28,7 +29,7 @@ const pageTitle = "Tag Index";
 
   .tag {
     margin: 0.25em;
-    border: dotted 1px #a1a1a1;
+    border: 1.5px solid black;
     border-radius: .5em;
     padding: .5em 1em;
     font-size: 1.15em;
