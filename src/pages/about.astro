@@ -1,4 +1,6 @@
 ---
+import "../styles/myDefault.css";
+import "../styles/global.css";
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const pageTitle = "About Me";
@@ -34,6 +36,12 @@ const textCase = "uppercase"
 			font-weight: var(--fontWeight);
 			text-transform: var(--textCase);
 		}
+
+		@media (prefers-color-scheme: dark) {
+			.skill {
+					color: deepskyblue;
+			}
+    }
 	</style>
 	<h2>... and my new Astro site!</h2>
 
