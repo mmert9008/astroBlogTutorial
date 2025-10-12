@@ -16,9 +16,8 @@ const { platform, username } = Astro.props;
     border-radius: 5px;
   }
 
-  @media (prefers-color-scheme: dark) {
-    a {
-      border: 1.5px solid white;
-    }
+  html.dark a {
+    border: 1.5px solid white;
+    color: white;
   }
 </style>
