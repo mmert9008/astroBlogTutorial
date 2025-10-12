@@ -42,7 +42,7 @@ a {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #ff9776;
+  background-color: #0e1116;
 }
 
 .nav-links {
@@ -80,21 +80,29 @@ html.dark {
   color: #f1f6fb;
 }
 
-.dark .menu {
+html.dark .menu {
   background-color: #f1f6fb;
-  color: #000;
+  color: #0e1116;
 }
 
-.dark .nav-links a:hover,
-.dark .nav-links a:focus {
-  color: #0d0950;
+html.dark .nav-links a:hover,
+html.dark .nav-links a:focus {
+  color: #0e1116;
 }
 
-.dark .nav-links a {
+html.dark .hamburger .line {
+  display: block;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 10px;
+  background-color: #f1f6fb;
+}
+
+html.dark .nav-links a {
   color: #f1f6fb;
 }
 
-.dark a {
+html.dark a {
   color: #bb9dff;
 }
 
