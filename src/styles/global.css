@@ -76,12 +76,12 @@ a {
 /* dark mode styles */
 
 html.dark {
-  background-color: #0d0950;
-  color: #fff;
+  background-color: #0e1116 /* #0d0950 */;
+  color: #f1f6fb;
 }
 
 .dark .menu {
-  background-color: #fff;
+  background-color: #f1f6fb;
   color: #000;
 }
 
@@ -91,11 +91,11 @@ html.dark {
 }
 
 .dark .nav-links a {
-  color: #fff;
+  color: #f1f6fb;
 }
 
 .dark a {
-  color: #ff9776;
+  color: #bb9dff;
 }
 
 @media screen and (min-width: 636px) {
