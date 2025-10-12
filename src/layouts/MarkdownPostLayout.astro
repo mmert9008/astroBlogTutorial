@@ -36,10 +36,19 @@ const { frontmatter } = Astro.props;
 
   .tag {
     margin: 0.25em;
-    border: dotted 1px #a1a1a1;
+    border: 1.5px solid black;
     border-radius: .5em;
     padding: .5em 1em;
     font-size: 1.15em;
     background-color: #F8FCFD;
+  }
+
+  html.dark a {
+    color: deepskyblue;
+  }
+
+  html.dark .tag {
+    background-color: black;
+    border: 1.5px solid steelblue;
   }
 </style>
